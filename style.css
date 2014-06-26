@@ -1,0 +1,130 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?rg323v');
+	src:url('fonts/icomoon.eot?#iefixrg323v') format('embedded-opentype'),
+		url('fonts/icomoon.woff?rg323v') format('woff'),
+		url('fonts/icomoon.ttf?rg323v') format('truetype'),
+		url('fonts/icomoon.svg?rg323v#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-revo-01:before {
+	content: "\e600";
+}
+
+html {
+    background: #fff;
+}
+.container {width: 100%;}
+.side {
+    float: left;
+}
+.left {
+    width: 300px;
+}
+.right {
+    width: 630px;
+}
+.side img {
+    width: 100%;
+}
+.side ul {
+    margin-top: 50%;
+    color: black !important;
+    list-style: none;
+    font-size: 30px;
+    text-decoration: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.side ul li:hover {
+    padding-left: 30px;
+}
+.alert {
+    text-align: center;
+}
+.logo {
+    font-size: 8em;
+    line-height: 200px;
+    text-shadow: 0 0 10px #AAA ,15px 20px 35px #0a363c;
+}
+.navi {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.navi-box {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 1.75em;
+}
+#works {
+    background: #3c71d1;
+    color: #fff;
+}
+#home {
+    background: #fff;
+}
+#about-us {
+    background: #5eb556;
+    color: #fff;
+.main{
+    -webkit-animation:swinging 5s ease-in-out 0s infinite;
+    -moz-animation:swinging 5s ease-in-out 0s infinite;
+    animation:swinging 5s ease-in-out 0s infinite;
+    -webkit-transform-origin:50% 0;
+    -moz-transform-origin:50% 0;
+    transform-origin:50% 0;
+}
+ 
+@-webkit-keyframes swinging{
+    0% { -webkit-transform: rotate(0); }
+    25% { -webkit-transform: rotate(4deg); }
+    50% { -webkit-transform: rotate(-3deg); }
+    75% { -webkit-transform: rotate(2deg); }
+    99% { -webkit-transform: rotate(0); } /* Come to rest at 50%. The rest is just stillness */
+    100% { -webkit-transform: rotate(0); }
+}
+ 
+@-moz-keyframes swinging{
+    0% { -moz-transform: rotate(0); }
+    25% { -moz-transform: rotate(4deg); }
+    50% { -moz-transform: rotate(-3deg); }
+    75% { -moz-transform: rotate(2deg); }
+    99% { -moz-transform: rotate(0); } /* Come to rest at 50%. The rest is just stillness */
+    100% { -moz-transform: rotate(0); }
+}
+ 
+@keyframes swinging{
+    0% { transform: rotate(0); }
+    25% { transform: rotate(4deg); }
+    50% { transform: rotate(-3deg); }
+    75% { transform: rotate(2deg); }
+    99% { transform: rotate(0); } /* Come to rest at 50%. The rest is just stillness */
+    100% { transform: rotate(0); }
+}
+@keyframes bgdd{
+    0% { background-color:  red; }
+    50% {background-color: blue; }
+    100% {background-color: red; }
+}
