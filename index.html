@@ -4,6 +4,13 @@
         <meta charset="utf-8">
         <title>NyankoRevo</title>
             <style>
+            @keyframe miao {
+                0% {transform: rotate(0deg);}
+                25%{transform: rotate(3.5deg);}
+                50%{transform: rotate(0deg);}
+                75%{transform: rotate(-3.5deg);}
+                100%{transform: rotate(0deg);}
+            }
             html {
             background: white;
             }
@@ -37,6 +44,10 @@
             .alert {
                 text-align: center;
             }
+            .main {
+                animation: miao 5s;
+                animation-iteration-count: infinite;
+            }
                 
         </style>
     </head>
@@ -51,7 +62,7 @@
                 </ul>
             </div>  
             -->
-            <div >
+            <div class="main">
                 <img src="./revo.png" alt="NyankoRevo">
                 <h2 class="alert">
                     革 · 命 · 喵 · ッニャンー
