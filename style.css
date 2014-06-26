@@ -43,13 +43,6 @@ html {
 .side img {
     width: 100%;
 }
-.side ul {
-    margin-top: 50%;
-    color: black !important;
-    list-style: none;
-    font-size: 30px;
-    text-decoration: none;
-}
 a {
     color: black;
     text-decoration: none;
@@ -61,9 +54,9 @@ a {
     text-align: center;
 }
 .logo {
+    color: #bc1a71;
     font-size: 8em;
     line-height: 200px;
-    text-shadow: 0 0 10px #AAA ,15px 20px 35px #0a363c;
 }
 .navi {
     position: fixed;
@@ -88,6 +81,7 @@ a {
 #about-us {
     background: #5eb556;
     color: #fff;
+}
 .main{
     -webkit-animation:swinging 5s ease-in-out 0s infinite;
     -moz-animation:swinging 5s ease-in-out 0s infinite;
@@ -95,8 +89,8 @@ a {
     -webkit-transform-origin:50% 0;
     -moz-transform-origin:50% 0;
     transform-origin:50% 0;
+    color: #4d4045;
 }
- 
 @-webkit-keyframes swinging{
     0% { -webkit-transform: rotate(0); }
     25% { -webkit-transform: rotate(4deg); }
