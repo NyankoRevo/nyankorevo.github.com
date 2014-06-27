@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <title>NyankoRevo</title>
         <link href='http://www.youziku.com/webfont/NameCSS/46721' rel='stylesheet' type='text/css'/>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./font-awesome.min.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
         <div class="navi">
@@ -19,15 +20,6 @@
             </div>
         </div>
         <div class="container">
-            <!--
-            <div class="side left">
-                <ul>
-                    <li><a href="#">works</a></li>
-                    <li><a href="https://www.github.com/NyankoRevo">github</a></li>
-                    <li><a href="#">about us</a></li>
-                </ul>
-            </div>  
-            -->
             <div class="main">
                 <p class="alert logo"><span class="icon-revo-01"></span></p>
                 <h2 class="alert">
@@ -47,5 +39,26 @@
                     </h5>
             </div>
         </div>
+        <div class="comment-ctrl"><p style="text-align: center"><i class="fa fa-comment"></i></p></div>
+        <div class="comment-container">
+            <div class="comment-close"><p style="text-align: center"><i class="fa fa-comment"></i>Close</p></div>
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'nnyanl'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">Loading comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        </div>
     </body>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./site.js"></script>
 </html>
