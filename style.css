@@ -29,9 +29,18 @@
 
 html {
     background: #fff;
-   font-family: Regencie46188;
+    font-family: Regencie46188;
+    transition: background 1.5s ease-in-out;
 }
-.container {width: 100%; z-index: -1; margin-bottom: 3em;}
+.container {
+    width: 80%;
+    margin: auto;
+    z-index: -1;
+    margin-bottom: 3em;
+    padding-top: 4.5em;
+    padding-bottom: 6em;  
+      
+}
 .side {
     float: left;
 }
@@ -57,7 +66,7 @@ a {
 .logo {
     color: #bc1a71;
     font-size: 8em;
-    line-height: 200px;
+   
 }
 .logo:hover {
     -webkit-animation: 0.4s linear 0s normal none infinite spin;
@@ -85,14 +94,14 @@ a {
 	margin-top: 20px;
 
 }
-#works {
+#btn-works {
     background: #3c71d1;
     color: #fff;
 }
-#home {
+#btn-home {
     background: #fff;
 }
-#about-us {
+#btn-us {
     background: #5eb556;
     color: #fff;
 }
@@ -104,6 +113,8 @@ a {
     -moz-transform-origin:50% 0;
     transform-origin:50% 0;
     color: #4d4045;
+    opacity: 1;
+    transition: opacity 2s;
 }
 .comment-container {
     position: fixed;
@@ -130,7 +141,7 @@ a {
     margin-bottom: 0px;
 }
 .comment-ctrl:hover {
-	margin-bottom: 20px;
+         margin-bottom: 20px;
 }
 .comment-close {
     background: none repeat scroll 0% 0% #3C51A8;
@@ -176,4 +187,12 @@ a {
     0% { background-color:  red; }
     50% {background-color: blue; }
     100% {background-color: red; }
+}
+
+.hidden {
+    display: none;
+}
+
+.comment-holder {
+  height: 6em;
 }
