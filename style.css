@@ -59,6 +59,9 @@ a {
     font-size: 8em;
     line-height: 200px;
 }
+.logo:hover {
+	animation: 0.4s linear 0s normal none infinite spin;
+}
 .navi {
     position: fixed;
     top: 0px;
