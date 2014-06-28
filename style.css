@@ -72,6 +72,12 @@ a {
 	text-align: center;
 	font-size: 1.75em;
 	padding: 0.5em 0px;
+	transition: all 2s;
+	margin-top:0px;
+}
+.navi-box:hover {
+	margin-top: 20px;
+}
 }
 #works {
     background: #3c71d1;
@@ -102,6 +108,7 @@ a {
     background: #FFF;
     overflow-y: scroll;
     z-index: 999;
+    transition: all 3s ease-in;
 }
 .comment-ctrl {
     width: 3em;
@@ -112,6 +119,11 @@ a {
     left: 3em;
     color: white;
     z-index: 998;
+    transition: all 2s;
+    margin-bottom: 0px;
+}
+.comment-ctrl:hover {
+	margin-bottom: 20px;
 }
 .comment-close {
 	background: none repeat scroll 0% 0% #3C51A8;
