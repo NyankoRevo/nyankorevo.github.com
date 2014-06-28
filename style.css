@@ -60,6 +60,9 @@ a {
     line-height: 200px;
 }
 .logo:hover {
+    -webkit-animation: 0.4s linear 0s normal none infinite spin;
+    -moz-animation: 0.4s linear 0s normal none infinite spin;
+    -o-animation: 0.4s linear 0s normal none infinite spin;
 	animation: 0.4s linear 0s normal none infinite spin;
 }
 .navi {
@@ -112,6 +115,7 @@ a {
     overflow-y: scroll;
     z-index: 999;
     transition: all 0.8s ease-in;
+    padding-top: 6.5em;
 }
 .comment-ctrl {
     width: 3em;
@@ -129,12 +133,13 @@ a {
 	margin-bottom: 20px;
 }
 .comment-close {
-	background: none repeat scroll 0% 0% #3C51A8;
-	color: #FFF;
-	font-size: 1.5em;
-	position: relative;
-	padding: 0.01em;
-	margin-bottom: 2em;
+    background: none repeat scroll 0% 0% #3C51A8;
+    color: #FFF;
+    font-size: 1.5em;
+    position: absolute;
+    padding: 0.01em;
+    width: 100%;
+    top: 0;
 }
 .comment-close p i { padding-right: 20px;}
 #disqus_thread {
