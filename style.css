@@ -109,7 +109,15 @@ a {
     left: 3em;
     color: white;
 }
-
+.comment-close {
+	background: none repeat scroll 0% 0% #3C51A8;
+	color: #FFF;
+	font-size: 1.5em;
+	position: relative;
+	padding: 0.01em;
+	margin-bottom: 2em;
+}
+.comment-close p i { padding-right: 20px;}
 #disqus_thread {
     width: 90%;
     margin: auto;
