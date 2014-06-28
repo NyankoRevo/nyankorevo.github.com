@@ -64,6 +64,7 @@ a {
     top: 0px;
     left: 0px;
     width: 100%;
+    z-index: 997;
 }
 .navi-box {
 	float: left;
@@ -100,6 +101,7 @@ a {
     height: 100%;
     background: #FFF;
     overflow-y: scroll;
+    z-index: 999;
 }
 .comment-ctrl {
     width: 3em;
@@ -109,6 +111,7 @@ a {
     bottom: 0px;
     left: 3em;
     color: white;
+    z-index: 998;
 }
 .comment-close {
 	background: none repeat scroll 0% 0% #3C51A8;
