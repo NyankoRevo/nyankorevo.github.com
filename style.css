@@ -65,14 +65,14 @@ a {
 }
 .logo {
     color: #bc1a71;
-    font-size: 8em;
+    font-size: 6em;
    
 }
 .logo:hover {
-    -webkit-animation: 0.4s linear 0s normal none infinite spin;
-    -moz-animation: 0.4s linear 0s normal none infinite spin;
-    -o-animation: 0.4s linear 0s normal none infinite spin;
-	animation: 0.4s linear 0s normal none infinite spin;
+    -webkit-animation: 1s linear 0s normal none infinite spin;
+    -moz-animation: 1s linear 0s normal none infinite spin;
+    -o-animation: 1s linear 0s normal none infinite spin;
+	animation: 1s linear 0s normal none infinite spin;
 }
 .navi {
     position: fixed;
